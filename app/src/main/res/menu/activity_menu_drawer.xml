@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/ic_home"
+        android:title="@string/lblHome">
+
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registos"
+            android:title="@string/lblRegistos">
+            <menu>
+                <item
+                    android:id="@+id/nav_reg_cliente"
+                    android:icon="@mipmap/add_client"
+                    android:title="@string/lblRegistoCliente" />
+                <item
+                    android:id="@+id/nav_reg_viatura"
+                    android:icon="@mipmap/add_car"
+                    android:title="@string/lblRegistoViatura" />
+            </menu>
+
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/lblListas">
+            <menu>
+                <item
+                    android:id="@+id/nav_list_cliente"
+                    android:icon="@mipmap/list_cliente"
+                    android:title="@string/lblClientes" />
+                <item
+                    android:id="@+id/nav_list_viatura"
+                    android:icon="@mipmap/car_list"
+                    android:title="@string/lblViaturas" />
+                <item
+                    android:id="@+id/nav_parques"
+                    android:icon="@mipmap/ic_parking"
+                    android:title="@string/lblParques" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/tools">
+            <menu>
+                <item
+                    android:id="@+id/nav_utilizadores"
+                    android:icon="@drawable/worker_white"
+                    android:title="@string/action_utilizadores" />
+                <item
+                    android:id="@+id/nav_favoritos"
+                    android:icon="@mipmap/ic_favorite"
+                    android:title="@string/lblFavoritos" />
+                <item
+                    android:id="@+id/nav_definicoes"
+                    android:icon="@mipmap/settings"
+                    android:title="@string/action_settings" />
+                <item
+                    android:id="@+id/nav_sync"
+                    android:icon="@drawable/ic_sync_black_64dp_1x"
+                    android:title="@string/action_sync" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/power"
+                    android:title="@string/action_logout" />
+            </menu>
+        </item>
+    </group>
+</menu>

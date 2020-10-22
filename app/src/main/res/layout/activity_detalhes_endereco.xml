@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblProvincia"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvProvincia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblBairro"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvBairro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblAvRua"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvAvRua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nº"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvNr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblTelefone"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvTelefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblTelemovel"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvTelemovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblEmail"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

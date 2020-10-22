@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "563643236474",
+    "firebase_url": "https://pvnfirebaseproject.firebaseio.com",
+    "project_id": "pvnfirebaseproject",
+    "storage_bucket": "pvnfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563643236474:android:40533544c159b5ab",
+        "android_client_info": {
+          "package_name": "mz.co.sidy.pvn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563643236474-41ki302ojti15dpcveeja9heesc3rj1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mz.co.sidy.pvn",
+            "certificate_hash": "6f815ce85c61c2cdf530008562f6b6b887e493ed"
+          }
+        },
+        {
+          "client_id": "563643236474-rj42tcmns5naepnjq0g01v8t6mgnbkip.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "563643236474-rj42tcmns5naepnjq0g01v8t6mgnbkip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA30_GrBXgTxNSzkF8Gd_6Daw5BVabxqIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563643236474-rj42tcmns5naepnjq0g01v8t6mgnbkip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

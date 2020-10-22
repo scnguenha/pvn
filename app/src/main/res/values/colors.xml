@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   <color name="colorPrimary">#3F51B5</color>
+      <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#008dbc</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="selected_overlay">#88d4d3d6</color>
+    <color name="blueLight">#0099cc</color>
+    <color name="blue">#008dbc</color>
+    <color name="facebook">#016C8F</color>
+    <color name="blueDark">#016c8f</color>
+    <color name="blue_dark">#01536e</color>
+    <color name="blueLight2">#78d6f5</color>
+    <color name="pressed_color">#4d90fe</color>
+    <color name="pressed_color_light">#9cbffa</color>
+    <color name="red_error">#ff3000</color>
+    <color name="pressed_color_dark">#0561fa</color>
+    <color name="gray">#757272</color>
+    <color name="light_gray">#e4e4e4</color>
+    <color name="black">#1e1d1d</color>
+    <color name="my_gray">#474747</color>
+    <color name="white">#FFFFFF</color>
+</resources>

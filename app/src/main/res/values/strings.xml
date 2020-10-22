@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">PVN</string>
+    <string name="sync_receber">Por favor aguarde, a receber dados...</string>
+    <string name="error_parsing_json">Ocorreu um erro [A resposta JSON do servidor pode ser inválida]!</string>
+    <string name="error_creating_json">Ocorreu um erro ao criar o JSON!</string>
+    <string name="error_not_found">Serviço não encontrado!</string>
+    <string name="error_unauthorized">Serviço não autorizado!</string>
+    <string name="unexpected_error">Erro inesperado! [Possivelmente o telemovel não esteja conectado a internet]</string>
+    <string name="error_on_server">Algo de errado ocorreu do lado servidor</string>
+    <string name="view_error">Erro</string>
+    <string name="nenhum">Nenhum</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
+
+    <string name="lblNome">Nome</string>
+    <string name="lblGenero">Género</string>
+    <string name="lblApelido">Apelido</string>
+    <string name="lblDataNascimento">Data de Nascimento</string>
+
+    <string name="lblProvincia">Provincia</string>
+    <string name="lblBairro">Bairro</string>
+    <string name="lblAvRua">AV/Rua</string>
+    <string name="lblTelefone">Telefone</string>
+
+    <string name="setting_btn">Configurações</string>
+    <string name="internet_disabled_title">Internet Desligada</string>
+    <string name="internet_disabled_msg">A Internet está desligada. Por favor vá as configurações para ligar a Internet</string>
+    <string name="gps_disabled_title">GPS Desligado</string>
+    <string name="gps_disabled_Msg">O GPS está desligado. Por favor vá as configurações para ligar o GPS</string>
+    <string name="tamanho">Tamanho</string>
+
+    <string name="lista_clientes">Lista de Clientes</string>
+    <string name="detalhes_viatura">Detalhes Viatura</string>
+    <string name="detalhes_endereco">Detalhes Endereço</string>
+    <string name="lbl_masculino">Masculino</string>
+    <string name="lbl_feminino">Feminino</string>
+    <string name="title_activity_menu_principal">Menu Principal</string>
+    <string name="action_settings">Definições</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_utilizadores">Utilizadores</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblTransmissão">Transmissão</string>
+    <string name="lblCilindrada">Tamanho do motor</string>
+    <string name="lblCombustivel">Combustível</string>
+    <string name="lblAno">Ano</string>
+    <string name="lblPreco">Preço</string>
+    <string name="lblComprar">Comprar</string>
+    <string name="lblListaViaturas">Lista de Viaturas</string>
+    <string name="lblMenuPrincipal">Menu Principal</string>
+    <string name="lblRegistoCliente">Registo Cliente</string>
+    <string name="lblRegistoUtilizador">Registo Utilizador</string>
+    <string name="lblRegistoViatura">Registo Viatura</string>
+    <string name="lblMorada">Morada</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblTelemovel">Telemovel</string>
+    <string name="lblGravar">Gravar</string>
+    <string name="lblUtilizador">Utilizador</string>
+    <string name="lblNivel">Nivel</string>
+    <string name="lblCliente">Cliente</string>
+    <string name="msg_campo_obrigatorio">Desculpe, este campo é obrigatorio</string>
+    <string name="msg_nome_invalido">Desculpe, este nome é inválido</string>
+    <string name="lblDetalhar">Detalhar</string>
+    <string name="lblEditar">Editar</string>
+    <string name="lblApagar">Excluir</string>
+    <string name="lblAviso">Aviso</string>
+    <string name="msg_eliminar_cliente">Tem certaza que deseja eliminar este cliente?</string>
+    <string name="msg_eliminar_utilizador">Tem certaza que deseja eliminar este utilizador?</string>
+    <string name="msg_eliminar_viatura">Tem certaza que deseja eliminar esta viatura?</string>
+    <string name="msg_eliminar_parque">Tem certaza que deseja eliminar este parque?</string>
+    <string name="msg_eliminar_endereco">Tem certaza que deseja eliminar este endereço?</string>
+    <string name="lblSim">Sim</string>
+    <string name="lblNao">Não</string>
+    <string name="detalhes_cliente">Detalhes do Cliente</string>
+    <string name="title_lista_viaturas">Lista de Viaturas</string>
+    <string name="lblLotacao">Lotação</string>
+    <string name="lblNrPortas">Número de Portas</string>
+    <string name="lblConjTrans">Conjunto Transmissão</string>
+    <string name="lblChassi">Chassi</string>
+    <string name="lblMatricula">Matricula</string>
+    <string name="lblCor">Cor</string>
+    <string name="lblParque">Parque</string>
+    <string name="msg_escolha_marca">Escolha a Marca</string>
+    <string name="msg_escolha_modelo">Escolha o Modelo</string>
+    <string name="lblViaturas">Viaturas</string>
+    <string name="lblClientes">Clientes</string>
+    <string name="lblFavoritos">Favoritos</string>
+    <string name="lblRegistos">Registos</string>
+    <string name="lblListas">Listas</string>
+    <string name="lblGasolina">Gasolina</string>
+    <string name="lblDiesel">Diesel</string>
+    <string name="lblManual">Manual</string>
+    <string name="lblAutomatico">Automático</string>
+    <string name="msg_escolha_parque">Escolha o Parque</string>
+    <string name="branco">Branco</string>
+    <string name="azul">Azul</string>
+    <string name="amarelo">Amarelo</string>
+    <string name="preto">Preto</string>
+    <string name="rosa">Rosa</string>
+    <string name="rocho">Roxo</string>
+    <string name="castanho">Castanho</string>
+    <string name="vinho">Vinho</string>
+    <string name="prata">Prata</string>
+    <string name="ouro">Ouro</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="cinzento">Cinzento</string>
+    <string name="laranja">Laranja</string>
+    <string name="verde">Verde</string>
+    <string name="msg_selecione_cor">Escolha a Cor</string>
+    <string name="msg_escolha">Selecione</string>
+    <string name="msg_deseja_sair">Deseja Sair?</string>
+    <string name="msg_sincronizando">A Sincronizar...</string>
+    <string name="msg_gravado">Gravado</string>
+    <string name="msg_actualizado">Actualizado</string>
+    <string name="msg_recebendo">A Receber Dados</string>
+    <string name="msg_sincronizacao_terminada">Sincronização Terminada</string>
+    <string name="lblParques">Parques</string>
+    <string name="lblLocalizacao">Localização</string>
+    <string name="lista_parque">Lista Parques</string>
+    <string name="lblVerCarros">Ver Carros</string>
+    <string name="lblPesquisar">Pesquisar...</string>
+    <string name="lblFoto">Foto</string>
+    <string name="tirar_da_camara">Tirar da Câmera</string>
+    <string name="escolher_na_galeria">Escolher na Galeria</string>
+    <string name="adicionar_foto">Adicionar Foto</string>
+    <string name="lblCancelar">Cancelar</string>
+    <string name="sync_enviar">Por favor aguarde, a enviar dados...</string>
+    <string name="sincronizar_dados_com_servidor">A sincronizar dados com o servidor</string>
+    <string name="sincronizacao_terminada">Sincronização Terminada</string>
+    <string name="lblHome">Menu Principal</string>
+    <string name="lblPageNr">de</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="carregando_localizacao">A carregar localização</string>
+    <string name="progress_dialog_message">Por favor aguarde...</string>
+    <string name="lblNomeParque">Nome do Parque</string>
+    <string name="title_registo_park">Registo Parque</string>
+    <string name="title_add_endereco">Adicionar Endereco</string>
+    <string name="lblEndereco">Endereço</string>
+    <string name="msg_adicione_endereco">Adicione pelo menos um endereço</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_lista_utilizadores">Lista Utilizadores</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="tools">Tools</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password_actual">Password Actual</string>
+    <string name="prompt_password_novo">Novo Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_dont_have_acount">"Don't have an account?"</string>
+    <string name="prompt_have_acount">"Já está registado?"</string>
+    <string name="text_or">or</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_login">Login</string>
+    <string name="success_autentication">Autenticado com Sucesso</string>
+    <string name="error_invalid_email">Email Inválido</string>
+    <string name="error_invalid_user">Utilizador Inválido</string>
+    <string name="error_existent_user">Este Utilizador Existe</string>
+    <string name="error_invalid_password">Senha Inválida</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_email">email ou password incorrectos</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="lblProximo">Próximo</string>
+    <string name="lblAnterior">Anterior</string>
+
+    <string-array name="pref_language_list_titles">
+        <item>Português</item>
+        <item>Inglês</item>
+    </string-array>
+
+    <string-array name="pref_language_list_values">
+        <item>pt</item>
+        <item>en</item>
+    </string-array>
+
+    <string name="access_token">pk.eyJ1Ijoic2lkeW5ndWVuaGEiLCJhIjoiY2o2ZXExMGsxMmEzeTMzbHY0ZmRjNm12MyJ9.wZbivjFRzmuXzFcltdnVpw</string>
+    <string name="ponto_existente">O ponto já existe</string>
+    <string name="introducao_manual">Introdução Manual</string>
+    <string name="captura_gps">Captura GPS</string>
+    <string name="map_satelite_tile">Satellite</string>
+    <string name="map_terrain_tile">Terrain</string>
+    <string name="map_traffic_tile">Traffic</string>
+    <string name="map_street_tile">Streets</string>
+    <string name="map_dark_tile">Dark</string>
+    <string name="map_light_tile">Light</string>
+    <string name="msg_select_tile">Seleccione a camada</string>
+    <string name="title_activity_map">Mapa</string>
+    <string name="action_forget_password">Esqueceu a senha?</string>
+    <string name="prompt_inf">Precisamos apenas do seu ID de e-mail registado para enviar a você as instruções de redefinição de senha.</string>
+    <string name="action_reset_password">RESET PASSWORD</string>
+    <string name="action_back">BACK</string>
+    <string name="prompt_email_reset">We have sent you instructions to reset your password!</string>
+    <string name="error_email_reset">Failed to send reset email!</string>
+</resources>
